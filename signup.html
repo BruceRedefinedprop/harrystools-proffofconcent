@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content "IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Harry's Tools | Sign Up</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ <!--Menu bar and logo-->
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+   <div class="navbar-header">
+    <a class="navbar-brand" href="index.html">
+     <!--<img alt="Brand" src="/assets/htLogo.png" >-->
+     Harry's Tools
+    </a>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+   </div>
+   <div class="navbar-collapse collapse navbar-right" id="navbar">
+    <ul class="nav navbar-nav">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="index.html">Features</a></li>
+     <li><a href="pricing.html">Pricing</a></li>
+     <li><a href="usecase.html">Use Cases</a></li>
+     <li><a href="">Sign In</a></li>
+    </ul>
+   </div>
+  </div>
+ </nav>
+ <!--Callout and main text-->
+ <div class="container-fluid callout-container-small signin-background ">
+  <div class="opaque-overlay">&nbsp;</div>
+  <!-- Callout -->
+  <div class="row">
+   <div class="col-xs-12">
+    <section class=" jumbotron text-center">
+     <h1>Sign Up</h1>
+     <!--<hr class='block-divider block-divider--orange'>-->
+     <!--<p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>-->
+
+    </section>
+   </div>
+  </div>
+  <!-- /.callout -->
+ </div>
+ <div class="container-wrapper">
+  <div "container  content-container">
+   <section class="container-fluid">
+    <div class="row ">
+     <div>
+      <h3 class=" uppercase text-center">Sign Up</h3>
+
+     </div>
+     <div class=center-form>
+       
+       <form class="form-horizontal" method="post" name="signup" id="signup" enctype="multipart/form-data">
+        <div class="form-group">
+         <label class="control-label col-sm-3">Email ID <span class="text-danger">*</span></label>
+         <div class="col-md-8 col-sm-9">
+          <div class="input-group">
+           <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+           <input type="email" class="form-control" name="emailid" id="emailid" placeholder="Enter your Email ID" value="">
+          </div>
+          <small> Your Email Id is being used for ensuring the security of your account, authorization and access recovery. </small> </div>
+        </div>
+
+        <div class="form-group">
+         <label class="control-label col-sm-3">Set Password <span class="text-danger">*</span></label>
+         <div class="col-md-5 col-sm-8">
+          <div class="input-group">
+           <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+           <input type="password" class="form-control" name="password" id="password" placeholder="Choose password (5-15 chars)" value="">
+          </div>
+         </div>
+        </div>
+       
+
+        <div class="form-group">
+         <label class="control-label col-sm-3">Full Name <span class="text-danger">*</span></label>
+         <div class="col-md-8 col-sm-9">
+          <input type="text" class="form-control" name="mem_name" id="mem_name" placeholder="Enter your Name here" value="">
+         </div>
+        </div>
+        
+         
+        <div class="form-group">
+         <label class="control-label col-sm-3">Contact No. <span class="text-danger">*</span></label>
+         <div class="col-md-5 col-sm-8">
+          <div class="input-group">
+           <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+           <input type="text" class="form-control" name="contactnum" id="contactnum" placeholder="Enter your Primary contact no." value="">
+          </div>
+         </div>
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3">Alternate No. <br>
+          <small>(if any)</small></label>
+         <div class="col-md-5 col-sm-8">
+          <input type="text" class="form-control" name="contactnum2" id="contactnum2" placeholder="Any other or Landline no (if any)" value="">
+         </div>
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3">Profile Photo <br>
+          <small>(optional)</small></label>
+         <div class="col-md-5 col-sm-8">
+          <div class="input-group"> <span class="input-group-addon" id="file_upload"><i class="glyphicon glyphicon-upload"></i></span>
+           <input type="file" name="file_nm" id="file_nm" class="form-control upload" placeholder="" aria-describedby="file_upload">
+          </div>
+         </div>
+        </div>
+        
+        <div class="form-group">
+         <div class="col-xs-offset-3 col-md-8 col-sm-9"><span class="text-muted"><span class="label label-danger">Note:-</span> By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Policy</a>, including our <a href="#">Cookie Use</a>.</span>
+         </div>
+        </div>
+        <div class="form-group">
+         <div class="col-xs-offset-3 col-xs-10">
+          <input name="Submit" type="submit" value="Sign Up" class="btn btn-primary">
+         </div>
+        </div>
+       </form>
+
+
+       
+     </div>
+    </div>
+
+   </section>
+  </div>
+ </div>
+
+ <footer class="navbar-default  navbar-bottom">
+  <div class="container-fluid">
+   <span><a href ="about.html">About</a></span>
+   <span> | </span>
+   <span><a href ="contact.html">Contact Me</a></span>
+  </div>
+ </footer>
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
