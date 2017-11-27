@@ -19,13 +19,38 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
+
+.callout-container-small {
+    height: 50vh;
+    background: url('../assets/chicago.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.callout-container-small-usecase {
+    height: 50vh;
+    background: url('../assets/SF.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 
 .opaque-overlay {
     position: absolute;
@@ -55,7 +80,7 @@ body {
     border: 0;
 }
 
-.navbar-fixed-bottom {
+.navbar-bottom {
     background-color: rgba(66, 134, 244, .85);
     color: white;
     width: 100%;
@@ -65,7 +90,7 @@ body {
     padding-bottom: 4px;
 }
 
-.navbar-fixed-bottom a {
+.navbar-bottom a {
     color: white;
 }
 
@@ -144,8 +169,9 @@ body {
 .jumbotron h1 {
     color: white;
     font-weight: bold;
-    margin-bottom: 30px;
-    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ 
 }
 
 .jumbotron .lead {
@@ -157,6 +183,16 @@ body {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+/* Thumbnails */
+
+.home-thumbnail {
+    min-height:  466px;
+}
+
+.pricing-thumbnail {
+    min-height:  320px;
 }
 
 /* Block dividers */
