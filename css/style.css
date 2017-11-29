@@ -68,6 +68,14 @@ body {
     -o-background-size: cover;
 }
 
+.signup-background {
+    background: url('../assets/atlanta.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
 .callout-container-small-usecase {
     height: 50vh;
     /* background: url('../assets/SF.jpg') no-repeat center center fixed;*/
@@ -350,7 +358,7 @@ blockquote.quote {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 50%;
+        max-width: 75%;
     }
     
     
@@ -374,3 +382,23 @@ blockquote.quote {
 .control-label {
     color:#333333;
 }
+
+
+/*Media Queries*/
+
+
+
+
+@media (max-width: 767px) {
+    #home-jumbotron > h1 {
+    font-size: 16px;
+    margin-top: 30px;
+    padding-top: 50px;
+
+    }
+    
+    #home-jumbotron > .lead {
+        font-size: 14px; 
+    }
+} 
+    

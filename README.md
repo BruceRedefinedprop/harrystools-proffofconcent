@@ -95,6 +95,7 @@
         The about page, used the basic template with language used to a link to youtube
         borrowed from the resume project's download a pdf language.
         
+        In the CSS a media query was used so that index page call to action loaded up correctly on the iphone
         
     4.  Deployment
     
@@ -116,7 +117,7 @@
             Apple IPhone 6 IOS 11.1.2
             
             Leveno Desktop 8V8TRS4 loaded with Windows 10 Home v 1709, MS Edge 41.16299.15.0, 
-            Chrome  62.0.  3202.94 (Official Build) (64-bit)
+            Chrome  62.0.  3202.94 (Official Build) (64-bit)  Mozilla Firefox 57.0 (64 bit)
             
             Apple Ipad Pro
         
@@ -134,6 +135,11 @@
                 
             c.  I tested the smaller screen on my Iphone and Ipad (though Ipad pro is similar to the
                 laptop).  To diagnose issue on the small screen, I used Chrome developers tool.
+            
+            d.  I used browserstack to spot check different OS versions for window and phones.   This test was
+                was a spot check, my testing was focused on the index page since it's callout was the most 
+                challenging for the smaller screens.  Spot checked other pages.  Did not test form or links, 
+                I assumed those work in similar manner as in the primary testing platform.
         
     
     
@@ -141,14 +147,205 @@
  ********************************************************
  
  Major Change Log
+ --------------------
  
- Future Place Holders
+ Rev 0.1  Nov 29 2017
+ -----------------------
+ Fixed firebox scroolbar issue - horizontal scroll bar on uses cases and index
+    ***************************************************************************
+    *Micheal -- question: How do I associate verision numbers in the software?*  
+    ***************************************************************************  
+ 
+ ******************************************************************
+ 
+ Test Log
+ 
+     The test log is being added for the benefit of my Code Institute indstructors
+     so that they can verify my testing methodology / process
  
  
-  
+    Initial Review
+    ---------------
+    Tested on Windows 10 computer Google Chrome
+        for look and feel   Examined margins and flow
+        tested links:
+            Logo link - each page.  Expected goes back to home page - passed
+            Tested top menu link for each page - passed
+            Tested footer menu lines for each page - passed
+            Tested sign up button for each page - passed
+            tested about page youtube link - passed
+            Tested hamburger menu icon (three bars) - passed
+        
+        Forms:
+            Sign up page tested validations
+            Sign up page tested validations, choose files
 
-
+        Tested Responsiveness
+            view look and feel.  see that bootstrap breakpoints work, and scrollbars appear.
+        
+            Index page      - horizontal  Passed   , Veritical  Passed
+            Pricing page    - horizontal  Passed   , Veritical  Passed
+            usercase page   - horizontal  Passed   , Veritical  Passed
+            About page      - horizontal  Passed   , Veritical  Passed
+            Sign up page    - horizontal  Passed   , Veritical  Passed
+            Log in page     - horizontal  Passed   , Veritical  Passed
+            Contact page    - horizontal  Passed   , Veritical  Passed
+            
+            *******************************************************************
+            *Micheal - There is a question about can you really do to         *
+            *control the vertical behavior when the browser height gets small.*
+            *******************************************************************
  
-    
+    Tested on Windows 10 computer MS Edge
+        for look and feel   Examined margins and flow
+        tested links:
+            Logo link - each page.  Expected goes back to home page - passed
+            Tested top menu link for each page - passed
+            Tested footer menu lines for each page - passed
+            Tested sign up button for each page - passed
+            tested about page youtube link - passed
+            Tested hamburger menu icon (three bars) - passed
+        
+        Forms:
+            Sign up page tested validations
+            Sign up page tested validations, choose files
+
+        Tested Responsiveness
+            view look and feel.  see that bootstrap breakpoints work, and scrollbars appear.
+        
+            Index page      - horizontal  Passed   , Veritical  Passed
+            Pricing page    - horizontal  Passed   , Veritical  Passed
+            usercase page   - horizontal  Passed   , Veritical  Passed
+            About page      - horizontal  Passed   , Veritical  Passed
+            Sign up page    - horizontal  Passed   , Veritical  Passed
+            Log in page     - horizontal  Passed   , Veritical  Passed
+            Contact page    - horizontal  Passed   , Veritical  Passed
+   
+   Tested on Windows 10 computer Firefox
+        for look and feel   Examined margins and flow
+        tested links:
+            Logo link - each page.  Expected goes back to home page - passed
+            Tested top menu link for each page - passed
+            Tested footer menu lines for each page - passed
+            Tested sign up button for each page - passed
+            tested about page youtube link - passed
+            Tested hamburger menu icon (three bars) - passed
+        
+        Forms:
+            Sign up page tested validations
+            Sign up page tested validations, choose files
+
+        Tested Responsiveness
+            view look and feel.  see that bootstrap breakpoints work, and scrollbars appear.
+        
+            Index page      - horizontal  Passed   , Veritical  Passed
+            Pricing page    - horizontal  Passed   , Veritical  Passed
+            usercase page   - horizontal  Passed   , Veritical  Passed
+            About page      - horizontal  Passed   , Veritical  Passed
+            Sign up page    - horizontal  Passed   , Veritical  Passed
+            Log in page     - horizontal  Passed   , Veritical  Passed
+            Contact page    - horizontal  Passed   , Veritical  Passed
+   
+       Tested on MacBook computer Safari
+        for look and feel   Examined margins and flow
+        
+        tested links:
+            Logo link - each page.  Expected goes back to home page - passed
+            Tested top menu link for each page - passed
+            Tested footer menu lines for each page - passed
+            Tested sign up button for each page - passed
+            tested about page youtube link - passed
+            tested sign in button for each page - passed
+            Tested hamburger menu icon (three bars) - passed
+        
+        Forms:
+            Sign up page tested validations
+            Sign up page tested validations, choose files
+
+        Tested Responsiveness
+            view look and feel.  see that bootstrap breakpoints work, and scrollbars appear.
+        
+            Index page      - horizontal  Passed   , Veritical  Passed
+            Pricing page    - horizontal  Passed   , Veritical  Passed
+            usercase page   - horizontal  Passed   , Veritical  Passed
+            About page      - horizontal  Passed   , Veritical  Passed
+            Sign up page    - horizontal  Passed   , Veritical  Passed
+            Log in page     - horizontal  Passed   , Veritical  Passed
+            Contact page    - horizontal  Passed   , Veritical  Passed
    
    
+    Tested on MacBook computer Chrome
+        for look and feel   Examined margins and flow
+        
+        tested links:
+            Logo link - each page.  Expected goes back to home page - passed
+            Tested top menu link for each page - passed
+            Tested footer menu lines for each page - passed
+            Tested sign up button for each page - passed
+            tested about page youtube link - passed
+            tested sign in button for each page - passed
+            Tested hamburger menu icon (three bars) - passed
+        
+        Forms:
+            Sign up page tested validations
+            Sign up page tested validations, choose files
+
+        Tested Responsiveness
+            view look and feel.  see that bootstrap breakpoints work, and scrollbars appear.
+        
+            Index page      - horizontal  Passed   , Veritical  Passed
+            Pricing page    - horizontal  Passed   , Veritical  Passed
+            usercase page   - horizontal  Passed   , Veritical  Passed
+            About page      - horizontal  Passed   , Veritical  Passed
+            Sign up page    - horizontal  Passed   , Veritical  Passed
+            Log in page     - horizontal  Passed   , Veritical  Passed
+            Contact page    - horizontal  Passed   , Veritical  Passed
+            
+            
+Tested on MacBook computer Firefox
+        for look and feel   Examined margins and flow
+        
+        tested links:
+            Logo link - each page.  Expected goes back to home page - passed
+            Tested top menu link for each page - passed
+            Tested footer menu lines for each page - passed
+            Tested sign up button for each page - passed
+            tested about page youtube link - passed
+            tested sign in button for each page - passed
+            Tested hamburger menu icon (three bars) - passed
+        
+        Forms:
+            Sign up page tested validations
+            Sign up page tested validations, choose files
+
+        Tested Responsiveness
+            view look and feel.  see that bootstrap breakpoints work, and scrollbars appear.
+        
+            Index page      - horizontal  Passed   , Veritical  Passed
+            Pricing page    - horizontal  Passed   , Veritical  Passed
+            usercase page   - horizontal  Passed   , Veritical  Passed
+            About page      - horizontal  Passed   , Veritical  Passed
+            Sign up page    - horizontal  Passed   , Veritical  Passed
+            Log in page     - horizontal  Passed   , Veritical  Passed
+            Contact page    - horizontal  Passed   , Veritical  Passed            
+            
+            
+Tested on MacBook computer Firefox
+        for look and feel   Examined margins and flow
+        
+            
+            
+        
+        tested links:
+            Logo link - each page.  Expected goes back to home page - passed
+            Tested top menu link for each page - passed
+            Tested footer menu lines for each page - passed
+            Tested sign up button for each page - passed
+            tested about page youtube link - passed
+            tested sign in button for each page - passed
+            Tested hamburger menu icon (three bars) - passed
+        
+        Forms:
+            Sign up page tested validations
+            Sign up page tested validations, choose files
+            
