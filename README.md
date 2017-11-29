@@ -104,7 +104,7 @@
         
         Note that project from time-to-time was backed up  locally using git.  In order to 
         faciliate an initial review, the project was added to github at 
-        https://github.com/BruceRedefinedprop/harrystools-proffofconcent and will continue to
+        https://github.com/BruceRedefinedprop/harrystools-proofofconcent and will continue to
         be udpated on the site.
         
     5.  Testing
