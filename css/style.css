@@ -209,8 +209,10 @@ body {
 .jumbotron h1 {
     color: white;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 10px;
+    font-size: 35px;
+     
  
 }
 

@@ -1,8 +1,8 @@
- Harry Tools Real Estate Modeling Website
- Milestone Project for User Centric Front End Development Module
+ # Harry Tools Real Estate Modeling Website
+ ## Milestone Project for User Centric Front End Development Module
  *****************************************************************************
  
- 1. Project Scope
+ ### 1. Project Scope
  
     Harry's Tools is a proposed company whose product is software to enable the rapid creation
     of financial proformas for real estate projects.   The scope the project for is to develop the static front-end portion 
@@ -13,7 +13,7 @@
     this project as the course progresses.
 
 
-2.  Structure
+### 2.  Structure
 
     a. index.html - is the home / landing page.  It highlights the major features and benefits and is targeted
        to an commercial real estate professional.    Note in the banner menu, the "features" button points back to the 
@@ -50,7 +50,7 @@
     
     
  
- 3. Design Approach and Code Sources
+### 3. Design Approach and Code Sources
   
     As mentioned by instructor for the Bootstrap module, it's a good thing to reuse code, that you have rights to reuse.
     To faciliate the develoment of this site, I used the code from the Bootstrap Whiskey demonstration.  I appreciated
@@ -97,7 +97,7 @@
         
         In the CSS a media query was used so that index page call to action loaded up correctly on the iphone
         
-    4.  Deployment
+   ### 4.  Deployment
     
         The deployment of the project relies soley on the Cloud9 platform.  At this point, it is not
         deployed to any live webserver.  
@@ -107,7 +107,7 @@
         https://github.com/BruceRedefinedprop/harrystools-proofofconcent and will continue to
         be udpated on the site.
         
-    5.  Testing
+   ### 5.  Testing
     
         My current test enviroment consists of:
         
@@ -146,26 +146,27 @@
   
  ********************************************************
  
- Major Change Log
+ # Major Change Log
  --------------------
  
- Rev 0.1  Nov 29 2017
- -----------------------
+## Rev 0.1  Nov 29 2017
+ 
  Fixed firebox scroolbar issue - horizontal scroll bar on uses cases and index
-    ***************************************************************************
-    *Micheal -- question: How do I associate verision numbers in the software?*  
-    ***************************************************************************  
+   
+    ** Micheal ** -- question: How do I associate verision numbers in the software?*  
+   
+ ## Dec 3, 2017 Update
+
+    udpated the README.md to include markdown language syntax
  
- ******************************************************************
- 
- Test Log
+ # Test Log
  
      The test log is being added for the benefit of my Code Institute indstructors
      so that they can verify my testing methodology / process
  
  
-    Initial Review
-    ---------------
+   ## a. Initial Review
+   
     Tested on Windows 10 computer Google Chrome
         for look and feel   Examined margins and flow
         tested links:
@@ -221,15 +222,15 @@
             Log in page     - horizontal  Passed   , Veritical  Passed
             Contact page    - horizontal  Passed   , Veritical  Passed
    
-   Tested on Windows 10 computer Firefox
-        for look and feel   Examined margins and flow
-        tested links:
-            Logo link - each page.  Expected goes back to home page - passed
-            Tested top menu link for each page - passed
-            Tested footer menu lines for each page - passed
-            Tested sign up button for each page - passed
-            tested about page youtube link - passed
-            Tested hamburger menu icon (three bars) - passed
+       Tested on Windows 10 computer Firefox
+            for look and feel   Examined margins and flow
+            tested links:
+                Logo link - each page.  Expected goes back to home page - passed
+                Tested top menu link for each page - passed
+                Tested footer menu lines for each page - passed
+                Tested sign up button for each page - passed
+                tested about page youtube link - passed
+                Tested hamburger menu icon (three bars) - passed
         
         Forms:
             Sign up page tested validations
@@ -302,8 +303,8 @@
             Contact page    - horizontal  Passed   , Veritical  Passed
             
             
-Tested on MacBook computer Firefox
-        for look and feel   Examined margins and flow
+    Tested on MacBook computer Firefox
+         for look and feel   Examined margins and flow
         
         tested links:
             Logo link - each page.  Expected goes back to home page - passed
@@ -330,7 +331,7 @@ Tested on MacBook computer Firefox
             Contact page    - horizontal  Passed   , Veritical  Passed            
             
             
-Tested on MacBook computer Firefox
+    Tested on MacBook computer Firefox
         for look and feel   Examined margins and flow
         
             
@@ -348,4 +349,4 @@ Tested on MacBook computer Firefox
         Forms:
             Sign up page tested validations
             Sign up page tested validations, choose files
-            
+
