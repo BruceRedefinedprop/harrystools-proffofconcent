@@ -153,7 +153,7 @@
  
  Fixed firebox scroolbar issue - horizontal scroll bar on uses cases and index
    
-    ** Micheal ** -- question: How do I associate verision numbers in the software?*  
+   
    
  ## Dec 3, 2017 Update
 
@@ -192,10 +192,7 @@
             Log in page     - horizontal  Passed   , Veritical  Passed
             Contact page    - horizontal  Passed   , Veritical  Passed
             
-            *******************************************************************
-            *Micheal - There is a question about can you really do to         *
-            *control the vertical behavior when the browser height gets small.*
-            *******************************************************************
+          
  
     Tested on Windows 10 computer MS Edge
         for look and feel   Examined margins and flow
